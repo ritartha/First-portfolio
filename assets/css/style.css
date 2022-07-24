@@ -57,7 +57,7 @@ nav ul li a{
     margin: 3px;
     padding: 0px 17px;
     display: flex;
-    font-size: 0.7rem;
+    font-size: 00.75rem;
     text-transform: uppercase;
     font-weight: 500;
     color: white;
@@ -203,7 +203,7 @@ nav ul li a:hover{
 }
 
 .work-box{
-    background-color: #fff;
+    background-color: #1e1e1e;
     width: 400px;
     height: 490px;
     margin: 20px;
@@ -211,7 +211,13 @@ nav ul li a:hover{
     overflow: hidden;
     box-shadow: 2px 2px 12px rgba(0, 0 ,0, 0.4);
     position: relative;
+    padding:0px 0px 5px 0px;
 
+}
+
+.work-box:hover{
+
+    box-shadow: 5px 10px 30px rgba(0, 255, 128,0.4 );
 }
 
 .work-img{
@@ -232,18 +238,32 @@ nav ul li a:hover{
     justify-content: center;
     flex-direction: column;
 }
+.work-heading{
+    text-align: center;
+    color: #fff;
+    margin: 20px 0px;
+}
 
 .work-text p{
     text-align: center;
+
 }
 
 .work-heading h1{
     font-size: 2.5rem;
+    bac
     }
 
 .work-heading p{
-    color: #e2e2e2;
-    }    
+    color: #fff;
+
+    } 
+
+.work-heading p a{
+    color:#00e9a5;
+    } 
+
+
 
 /******************** Contact ********************/
 #contact{
@@ -265,14 +285,15 @@ nav ul li a:hover{
     flex-direction: column;
 }
 
-#contact form input,#contact form textarea{
+#contact form input, #contact form textarea{
     width:100%;
     height: 50px;
-    margin:5px 10px;
+    margin:5px 0px;
     padding: 10px;
     background-color: #ffff;
     color:#1e1e1e;
     border-radius: 5px;
+    
 
 }
 
@@ -284,6 +305,22 @@ nav ul li a:hover{
     height: 45px;
     background-color:#00e9a5;
     color:#1e1e1e;
+    text-transform: uppercase;
 
 }    
 
+#contact form input[type="submit"]:hover{
+    background-color: #00e9a5;
+    color: black;
+    box-shadow: 5px 10px 30px rgba(0, 255, 128,0.4 );
+
+}   
+
+#contact div ul li{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-around;
+    color: #00e9a5;
+
+}
