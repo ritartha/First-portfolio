@@ -71,6 +71,7 @@ nav ul li a:hover{
     border-bottom: 2px solid #00e9a5;
     background-color: #2f2f2f;
     box-shadow: 5px 10px 30px rgba(0, 255, 128,0.4 );
+    
 }
 /*.active{
     border-bottom: 2px solid #00e9a5;
@@ -222,7 +223,7 @@ nav ul li a:hover{
 
 .work-img{
     width: 100%;
-    height: 60%;
+    height: 50%;
 }
 
 .work-img img{
@@ -246,6 +247,7 @@ nav ul li a:hover{
 
 .work-text p{
     text-align: center;
+    margin: 5px;
 
 }
 
@@ -274,7 +276,13 @@ nav ul li a:hover{
     flex-direction: column;
     padding: 40px 0px;
     background-color: #1e1e1e;
+    letter-spacing: 1px;
+    transition: 0.6s ease;
     
+}
+
+#contact div h1, #contact div p{
+    align-items: center;
 }
 
 #contact form{
@@ -299,6 +307,7 @@ nav ul li a:hover{
 
 #contact form textarea{
     height: 150px;
+    
     }
 
 #contact form input[type="submit"]{
@@ -316,11 +325,31 @@ nav ul li a:hover{
 
 }   
 
+#contact div ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 #contact div ul li{
     display: flex;
     flex-direction: column;
     align-items:center;
-    justify-content:space-around;
+    justify-content:center;
     color: #00e9a5;
+    padding: 5px;
+    margin: 10px;
+
+    
+}
+
+#contact div ul li img:hover{
+    background-color: #00e9a5;
+    color: black;
+    box-shadow: 5px 10px 30px rgba(0, 255, 128,0.4 );
+    border: #00e9a5;
+    border-width: 2px;
+    border-radius: 5px;
 
 }
