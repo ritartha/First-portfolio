@@ -28,8 +28,10 @@ input{
 }
 
 .logo{
-    width:20%;
+    padding-right: 20px;
 }
+
+
 
 /******************** NAVIGATION****/
 nav{
@@ -117,6 +119,7 @@ nav ul li a:hover{
 .header-heading p{
     color:whitesmoke ;
     font-family:Cabin;
+    letter-spacing: 1px;
 }
 
 .header-btn{
@@ -291,6 +294,7 @@ nav ul li a:hover{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 10px;
 }
 
 #contact form input, #contact form textarea{
@@ -301,6 +305,8 @@ nav ul li a:hover{
     background-color: #ffff;
     color:#1e1e1e;
     border-radius: 5px;
+    align-items: center;
+    justify-content: center;
     
 
 }
