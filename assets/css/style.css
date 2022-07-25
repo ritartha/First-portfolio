@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;1,500&family=Edu+TAS+Beginner:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blaka&family=Dancing+Script:wght@400;500&display=swap');
 html{
     scroll-behavior: smooth;
 }
@@ -107,6 +108,16 @@ nav ul li a:hover{
     margin:0px;
      }
 
+.header-heading h5{
+font-family:Cabin;
+font-size: 20px;
+letter-spacing: 1px;
+padding: 5;
+color: #2f2f2f;
+margin:0px;
+font-family: Dancing Script;
+    }     
+
 .data-scientist{
     color: #00e9a5;
 } 
@@ -186,6 +197,31 @@ nav ul li a:hover{
     color:whitesmoke ;
     font-family:Cabin;
 }
+
+
+.about-skills{
+    width: 45%;
+    color: white;
+}
+.about-skills-topic{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #00e9a5;
+}
+
+.about-skills h3{
+    color:#00e9a5;
+}
+
+.about-skills p{
+    width: 500px;
+    color:whitesmoke ;
+    font-family:Cabin;
+}
+
+
+
+
 
 /************************work ****************/
 #work{
