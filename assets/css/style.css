@@ -163,11 +163,18 @@ font-family: Dancing Script;
     display: flex;
     box-sizing: border-box;
     align-items: center;
-    justify-content: space-between;
-    padding: 50px 5% 0px 5%;
+    justify-content: center;
+    
     position: relative;
+    flex-direction: column;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    
 }
 
+/*********
 .about-img{
     width: 50%;
 
@@ -217,70 +224,70 @@ font-family: Dancing Script;
     width: 500px;
     color:whitesmoke ;
     font-family:Cabin;
-}
+}****/
+/**********88skills***********/
+.skill-heading{
 
-
-/** SKILLS **/
-.skills h2{
-    color:#fff;
-    letter-spacing: 1;  
-
-    font-size: 35px;
-}
-.skills-points ul li h4{
-    text
+    height: 10%;
+    background-color: #1e1e1e;
+    text-align: center;
     color: #fff;
-}
+    margin-top: 5vh;
+    margin-bottom:5vh;
+    font-size: 30px;
 
-
-
-.skills {
     
-    position: relative;
-    margin: 10px;
+
 }
-.skills div ul{
+.skills{
+    position:relative;
+    height: 50%;
+    display:list-item;
+    width: 840px;
+    color: white;
+    margin-bottom: 30vh;
+    margin-right: 1%;
+    margin-top: 5vh;
+    padding:5px;
+    background-color:#3f3f3f;
+    margin:5px 5px 20px 5px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 30px rgba(0, 255, 128,0.1 );
+    
+}
+
+.skills h1{
+    padding: 20px;
     display: flex;
-    flex-direction:row;
-    align-items: center;    
-    font-family:Cabin;
-    padding:0 20 2px;
-    margin: 0px ;
+    align-items: center;
+    margin: 2px;
+    
+}
+
+.skills ul{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:10px;
+    position: relative;
+    
+}
+.skills ul li h4{
+    font-size: 20px;
+    color: #00e9a5;
+
+}
+.skills ul li button{
+    font-size: 20px;
+    color: white;
     background-color:#1e1e1e;
     border-radius: 5px;
-    letter-spacing: 1.5px;
+    margin: 2px;
 }
-
-
-.skills div ul li h4{
-    color: #00e9a5;
-    padding-right:5px;
-    font-size:20px;
+.skills ul li button:hover{
+    color:black;
+    background-color: #00e9a5;
 }
-
-.skills div ul li button{
-    font-size:22px;
-    display: inline;
-    margin: 5;
-    padding: 5;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;
-    border-radius: 8px;
-    background-color: #1e1e1e;
-    color: white;
-    }
-.skills div ul li button:hover{
-    background-color:#3f3f3f;
-    color: white;
-    
-    box-shadow: 5px 8px 12px rgba(0, 255, 128,0.1 );
-}    
-  
-
-
-
-
 
 /************************work ****************/
 #work{
@@ -327,6 +334,7 @@ font-family: Dancing Script;
 .work-img img{
     width: 100%;
     height: 100%;
+        
 }
 
 .work-text{
@@ -351,7 +359,7 @@ font-family: Dancing Script;
 
 .work-heading h1{
     font-size: 2.5rem;
-    bac
+    
     }
 
 .work-heading p{
