@@ -71,7 +71,7 @@
             <h5>&lt/head&gt</h5>
             <h5>&ltbody&gt</h5>
             <h1>I'm <span>Ritartha Chaki</span> </h1>
-            <p>A budding <span class="data-scientist">Data Scientist</span> on a journey to tune all the hyper-parameters of life. <span class="data-scientist">Welcome</span> to my blog.
+            <p>A budding <span class="data-scientist">Data Scientist</span> on a journey to tune all the hyper-parameters of life. <span class="data-scientist">Welcome</span> to my <span>portfolio.</span>.
             <div class="btn_container">
               <button class="btn btn-light" onclick="document.location='https://drive.google.com/uc?export=view&id=17i8padf5lDuR0w0Om3ZzxWOK6xAotLTy'">Resume</button>
             </div>
@@ -100,8 +100,9 @@
     <div class="about_section" id="about">
       <div class="container">
         <div class="row m-0">
-            <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
-              <h2 id="heading">About</h2>
+          <!--
+            <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12" id="about_box">
+              <h2 id="heading" class="text-white text-center">About</h2>
               <div>
                 <h5>Add skills</h5>
               </div>
@@ -111,37 +112,58 @@
                 <h5>ok</h5>
               </div>
             </div>
+            -->
 
-            <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12 about_me_right_section">
-                <h2 id="heading">Skills</h2>
+            <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12 about_me_right_section" id="skill_box">
+                <h2 id="heading" class="text-white text-center"><span>&lt</span> Skills <span>&gt</span></h2>
                 
-                <p id="'txt">Some line</p>
+                <p id="'txt"></p>
                 <table class="table">
+
                   <tr>
-                    <td><h5>Category:</h5></td>
-                    <td><h5>Skills</h5></td>
+                    <td><h5></h5><h6 id="skill_cat">Programming Languages:</h6></td>
+                    <td>
+                      <button id="skill_point">C</button>
+                      <button id="skill_point">Python</button>
+                      <button id="skill_point">MATLAB</button>
+                      <button id="skill_point">SQL</button>
+                      <button id="skill_point">Shell</button>
+                    </td>
                   </tr>
                   <tr>
-                    <td><h6>Part 1:</h6></td>
-                    <td><h6>Create list items</h6></td>
+                    <td><h6 id="skill_cat">Data Science, Machine Learning & Deep Learning:</h6></td>
+                    <td>
+                      <button id="skill_point">Numpy</button>
+                      <button id="skill_point">Pandas</button>
+                      <button id="skill_point">Matplotlib</button>
+                      <button id="skill_point">Sklearn</button>
+                      <button id="skill_point">Tensorflow </button>
+                    </td>
                   </tr>
                   <tr>
-                    <td><h6>Part 2:</h6></td>
-                    <td><h6>Create list items</h6></td>
+                    <td><h6 id="skill_cat">Big Data:</h6></td>
+                    <td>
+                      <button id="skill_point">Hadoop</button>
+                      <button id="skill_point">HDFS</button>
+                      <button id="skill_point">YARN</button>
+                      <button id="skill_point">Spark</button>
+                      <button id="skill_point">CQL</button>
+                    </td>
                   </tr>
                   <tr>
-                    <td><h6>Part 3:</h6></td>
-                    <td><h6>Create list items</h6></td>
-                  </tr>
-                  <tr>
-                    <td><h6>Part 4:</h6></td>
-                    <td><h6>Create list items</h6></td>
+                    <td><h6 id="skill_cat">Other Skills:</h6></td>
+                    <td>
+                      <button id="skill_point">HTML</button>
+                      <button id="skill_point">CSS</button>
+                      <button id="skill_point">JavaScript</button>
+                      <button id="skill_point">Raspberry Pi</button>
+                    </td>
                   </tr>
                   
 
 
                 </table>
-
+                <h2 id="heading" class="text-white text-center"><span>&lt/</span>Skills<span>&gt</span></h2>
 
             </div>
           </div>
@@ -153,19 +175,37 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
-            <h1 id="heading" class="text-white text-center">Projects <span>.</span></h1>
+            <h1 id="heading" class="text-white text-center"><span>&lt</span>Projects<span>&gt</span></h1>
           </div>
         </div>
         <div class="row mt-5">
-          <div class="col-lg-4 col-md-6 col-ms-12 col-xs-12">
+          <div class="col-lg-4 col-md-6 col-ms-12 col-xs-12" onclick="document.location='https://github.com/'">
             <div class="card animate_animated border-0">
 
               <div class="card-header border-0 p-0">
-                <img src="/assets/imgs/facebook.png" alt="" width="100%">
+                <img src="/assets/imgs/work-3.jpg" alt="" width="100%">
               </div>
               <div class="card-body">
-                <h3 class="titlw">Project 1</h3>
-                <p class="info">Something text <span>Some text</span> </p>
+                <h3 class="titlw">News Article Multi-class Sorting </h3>
+                <p class="info">Skills :<span>NLP, Decision Trees</span> </p>
+                <p class="txt"></p>
+                <a class="text-decoration-none" href="https://github.com/ritartha/News_article_sorting"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="github" height="30"></a>
+                <span>|</span>
+                <a class="text-decoration-none" href="#">Site</a>
+
+              </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-ms-12 col-xs-12" onclick="document.location='https://github.com/'">
+            <div class="card animate_animated border-0">
+
+              <div class="card-header border-0 p-0">
+                <img src="/assets/imgs/tf.png" alt="" width="100%">
+              </div>
+              <div class="card-body">
+                <h3 class="titlw">Realtime Hand Gesture Detection</h3>
+                <p class="info">Skills<span>Tensorflow, OpenCV, PIL</span> </p>
                 <p class="txt"></p>
                 <a class="text-decoration-none" href="#"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="github" height="30"></a>
                 <span>|</span>
@@ -175,15 +215,15 @@
               </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 col-ms-12 col-xs-12">
+          <div class="col-lg-4 col-md-6 col-ms-12 col-xs-12" onclick="document.location='https://github.com/'">
             <div class="card animate_animated border-0">
 
               <div class="card-header border-0 p-0">
                 <img src="/assets/imgs/facebook.png" alt="" width="100%">
               </div>
               <div class="card-body">
-                <h3 class="titlw">Project 1</h3>
-                <p class="info">Something text <span>Some text</span> </p>
+                <h3 class="titlw">Facebook Post Status Prediction</h3>
+                <p class="info">Skills<span>__,__</span> </p>
                 <p class="txt"></p>
                 <a class="text-decoration-none" href="#"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="github" height="30"></a>
                 <span>|</span>
@@ -192,16 +232,15 @@
               </div>
               </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 col-ms-12 col-xs-12">
+          <div class="col-lg-4 col-md-6 col-ms-12 col-xs-12" onclick="document.location='https://github.com/'">
             <div class="card animate_animated border-0">
 
-              <div class="card-header border-0 p-0">
-                <img src="/assets/imgs/facebook.png" alt="" width="100%">
+              <div class="card-header border-0 p-0" >
+                <img src="/assets/imgs/fraud_transaction_2.png" alt="" width="100%">
               </div>
               <div class="card-body">
-                <h3 class="titlw">Project 1</h3>
-                <p class="info">Something text <span>Some text</span> </p>
+                <h3 class="titlw">Fraud Transaction Detection</h3>
+                <p class="info">Skills<span>__,__</span> </p>
                 <p class="txt"></p>
                 <a class="text-decoration-none" href="#"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="github" height="30"></a>
                 <span>|</span>
@@ -210,22 +249,8 @@
               </div>
               </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-ms-12 col-xs-12">
-            <div class="card animate_animated border-0">
-
-              <div class="card-header border-0 p-0">
-                <img src="/assets/imgs/facebook.png" alt="" width="100%">
-              </div>
-              <div class="card-body">
-                <h3 class="titlw">Project 1</h3>
-                <p class="info">Something text <span>Some text</span> </p>
-                <p class="txt"></p>
-                <a class="text-decoration-none" href="#"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="github" height="30"></a>
-                <span>|</span>
-                <a class="text-decoration-none" href="#">Site</a>
-
-              </div>
-              </div>
+          <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
+            <h1 id="heading" class="text-white text-center"><span>&lt/</span>Projects <span>&gt</span></h1>
           </div>
         </div>
 
@@ -234,14 +259,15 @@
     </div>
     <!--CONTACT-->
     <div class="contact_section" id="contact">
+      
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
-            <h1 id="heading" class="text-white text-center">Contacts<span>.</span></h1>
+            <h1 id="heading" class="text-white text-center">Contacts()<span></span></h1>
           </div>
           <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
-            <div class="contact-social">
-              <ul>
+            <div class="contact-social"> 
+              <ul><li><h1 class="br">{</h1></li>
                   <li><a href="https://www.facebook.com/Ritartha/">
                       <img src="https://img.icons8.com/ios-filled/50/000000/facebook-circled--v1.png" alt="facebook"></a></li>
                   <li><a href="https://www.linkedin.com/in/ritartha-chaki-bab62ba8/">
@@ -252,6 +278,7 @@
                       <img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/50/000000/external-instagram-social-media-tanah-basah-glyph-tanah-basah.png" alt="instagram"></a></li>
                   <li><a href="mailto:ritartha@gmail.com">
                       <img src="https://img.icons8.com/ios-filled/50/000000/gmail-new.png" alt="gmail"></a></li>
+                      <li><h1 class="br">}</h1></li>
               </ul>
           </div>
           </div>
